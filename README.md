@@ -1,14 +1,14 @@
 # NBA Data Warehouse and Analytics Pipeline
 
-Data engineering and analytics project designing a structured data warehouse and analytics pipeline for NBA performance data using Python, SQL, and dimensional data modeling to support scalable querying and data-driven insights.
+Graduate-level data engineering project designing a structured analytics database and pipeline to transform raw performance data into a scalable data warehouse supporting efficient querying, reporting, and data-driven analysis.
 
 ---
 
 ## Executive Summary
 
-This project developed a structured data warehouse and analytics pipeline to support efficient analysis of NBA player, team, and game performance data. The system was designed to transform raw, unstructured sports data into a clean, structured format suitable for scalable querying, reporting, and analytics.
+This project developed a structured data warehouse and analytics pipeline to support efficient analysis of NBA player, team, and game performance data. The system transforms raw, unstructured sports data into a clean, structured format suitable for scalable querying, reporting, and analytics.
 
-The project demonstrates key data engineering and analytics capabilities, including data modeling, pipeline development, and structured analytics workflows. These capabilities are directly applicable to healthcare analytics, clinical data systems, and enterprise data platforms.
+The project demonstrates key data engineering and analytics capabilities, including data modeling, ETL pipeline development, and structured analytics workflows. These capabilities are directly applicable to healthcare analytics, clinical data systems, and enterprise data platforms.
 
 ---
 
@@ -16,28 +16,28 @@ The project demonstrates key data engineering and analytics capabilities, includ
 
 Modern analytics systems require structured, well-designed data architectures to enable efficient querying and analysis. Raw data is often fragmented, unstructured, and difficult to analyze without transformation into a structured data model.
 
-This project designed and implemented a structured data warehouse to organize NBA performance data into a scalable format suitable for analytics and reporting.
+This project designed and implemented a structured data warehouse to organize NBA performance data into a scalable relational structure suitable for analytics and reporting.
 
-The system enables efficient analysis of player performance, team performance, and game-level metrics.
+The resulting system enables efficient analysis of player performance, team performance, and game-level metrics.
 
 ---
 
 ## Business Problem
 
-Raw NBA performance data is difficult to analyze efficiently due to:
+Raw NBA performance data presents several challenges for analytics:
 
 • Fragmented and unstructured data formats  
-• Lack of standardized schema for analytics  
-• Difficulty performing scalable queries across multiple datasets  
+• Lack of standardized schema for scalable analytics  
+• Difficulty performing efficient queries across multiple datasets  
 • Limited ability to generate consistent analytical insights  
 
-A structured data warehouse enables scalable, efficient analytics and reporting.
+A structured data warehouse enables scalable, efficient querying, reporting, and analytics.
 
 ---
 
 ## Approach
 
-The project followed a structured data engineering and analytics workflow:
+The project followed a structured data engineering and analytics workflow.
 
 ### Data Ingestion
 
@@ -49,18 +49,17 @@ The project followed a structured data engineering and analytics workflow:
 ### Data Cleaning and Transformation
 
 • Cleaned and standardized data fields  
-• Removed inconsistencies and missing values  
-• Structured data into normalized format  
+• Removed inconsistencies and handled missing values  
+• Transformed data into structured format suitable for analysis  
 
 ---
 
 ### Data Modeling
 
-• Designed structured relational schema  
-• Organized data into logical tables  
-• Established relationships between entities  
+• Designed structured relational schema using dimensional modeling principles  
+• Organized data into logical entities and tables  
 
-Examples of entities:
+Key entities included:
 
 • Players  
 • Teams  
@@ -74,8 +73,8 @@ This structure supports efficient querying and scalable analytics.
 ### Analytics and Querying
 
 • Performed structured analysis of player and team performance  
-• Enabled scalable querying across datasets  
-• Supported generation of performance insights  
+• Enabled scalable querying across relational datasets  
+• Supported generation of performance insights and reporting  
 
 ---
 
@@ -84,26 +83,26 @@ This structure supports efficient querying and scalable analytics.
 The project successfully created a structured data warehouse enabling:
 
 • Efficient querying and analysis of large datasets  
-• Improved data organization and accessibility  
+• Improved data accessibility and organization  
 • Scalable analytics workflows  
 • Structured foundation for reporting and visualization  
 
-This project demonstrates the ability to build data systems that support analytics-driven decision-making.
+This project demonstrates the ability to design and implement data systems that support analytics-driven decision-making.
 
 ---
 
 ## Healthcare and Enterprise Relevance
 
-The data engineering and data modeling techniques used in this project are directly applicable to healthcare and enterprise analytics systems.
+The data engineering and data modeling techniques demonstrated in this project are directly applicable to healthcare and enterprise analytics systems.
 
 Healthcare organizations rely on structured data warehouses to manage:
 
-• Clinical data  
-• Patient records  
-• Operational data  
+• Clinical and patient data  
+• Operational and system performance data  
 • Analytics and reporting systems  
+• AI and machine learning data pipelines  
 
-This project demonstrates foundational capabilities needed to build scalable healthcare analytics and AI data systems.
+This project demonstrates foundational capabilities required to support scalable healthcare analytics and AI-enabled systems.
 
 ---
 
@@ -123,14 +122,14 @@ I designed and implemented the data warehouse and analytics pipeline, including:
 
 This project demonstrates key data engineering and analytics capabilities:
 
-• Data engineering and data pipeline development  
-• Data warehouse design  
+• Data engineering and ETL pipeline development  
+• Data warehouse design and implementation  
 • SQL and structured querying  
 • Data modeling and schema design  
 • Python-based data processing  
 • Analytics and performance analysis  
 
-These skills are directly applicable to healthcare analytics, enterprise data platforms, and AI-enabled systems.
+These skills are directly applicable to healthcare analytics, enterprise data platforms, and AI-enabled healthcare systems.
 
 ---
 
@@ -140,24 +139,10 @@ These skills are directly applicable to healthcare analytics, enterprise data pl
 • SQL  
 • Jupyter Notebook  
 • Data cleaning and transformation techniques  
-• Data modeling and warehouse design  
+• Data modeling and warehouse design principles  
 
 ---
 
 ## Files Included
 
-• Final_Project_NBA_Stats.ipynb — Complete data pipeline, data modeling, and analytics workflow  
-
----
-
-## Author
-
-Kjetil “KJ” Cline  
-MBA + MS Business Analytics Candidate, The George Washington University  
-
-Healthcare Analytics | AI Product and Program Strategy | Data Engineering | Regulated Digital Health Systems  
-
-GitHub: https://github.com/kj-cline  
-LinkedIn: https://linkedin.com/in/kjetilcline  
-
-Actively seeking roles in healthcare analytics, AI product strategy, and regulated digital health systems.
+• Final_Project_NBA_Stats.ipynb — Complete data pipeline, d_
